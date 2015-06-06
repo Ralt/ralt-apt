@@ -1,0 +1,3 @@
+Package: awesome-extra
+Pin: release a=unstable
+Pin-Priority: 800
