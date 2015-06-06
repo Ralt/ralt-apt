@@ -1,5 +1,6 @@
-ralt-apt (1.0-1) UNRELEASED; urgency=medium
+ralt-apt (1.0-2) UNRELEASED; urgency=medium
 
   * Initial release.
+  * Fixes /etc/apt/preferences existence.
 
- -- Florian Margaine <florian@margaine.com>  Sat, 06 Jun 2015 00:31:58 +0000
+ -- Florian Margaine <florian@margaine.com>  Sat, 06 Jun 2015 17:27:21 +0000

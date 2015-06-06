@@ -13,7 +13,9 @@ deb-src http://ftp.fr.debian.org/debian unstable main contrib non-free
 deb http://vm.margaine.com/debian ralt ralt
 EOF
 
-cp /etc/apt/preferences{,.orig}
+if [ -f /etc/apt/preferences ]; then
+    cp /etc/apt/preferences{,.orig}
+fi
 cat > /etc/apt/preferences <<EOF
 Package: *
 Pin: release  a=ralt
