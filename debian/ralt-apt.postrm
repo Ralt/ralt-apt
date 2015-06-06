@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -e
+
+cp /etc/apt/sources.list{.orig,}
+cp /etc/apt/preferences{.orig,}
