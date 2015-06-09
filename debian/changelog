@@ -1,4 +1,4 @@
-ralt-apt (1.0-7) UNRELEASED; urgency=medium
+ralt-apt (1.0-8) UNRELEASED; urgency=medium
 
   * Initial release.
   * Fixes /etc/apt/preferences existence.
@@ -7,5 +7,6 @@ ralt-apt (1.0-7) UNRELEASED; urgency=medium
   * Fixes the preferences filename.
   * Fixes the preferences files.
   * Adds the stable/unstable priorities.
+  * Adds lisp preferences.
 
- -- Florian Margaine <florian@margaine.com>  Sat, 06 Jun 2015 23:55:37 +0000
+ -- Florian Margaine <florian@margaine.com>  Tue, 09 Jun 2015 22:25:44 +0000

@@ -10,4 +10,5 @@ override_dh_auto_install:
 	install -m 644 debian/preferences/awesome-extra debian/ralt-apt/etc/apt/preferences.d/
 	install -m 644 debian/preferences/iceweasel debian/ralt-apt/etc/apt/preferences.d/
 	install -m 644 debian/preferences/chromium debian/ralt-apt/etc/apt/preferences.d/
+	install -m 644 debian/preferences/sbcl debian/ralt-apt/etc/apt/preferences.d/
 	install -m 644 debian/sources/ralt.list debian/ralt-apt/etc/apt/sources.list.d/
