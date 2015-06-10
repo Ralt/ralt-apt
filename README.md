@@ -11,7 +11,7 @@ Version: 3.0
 Architectures: amd64 source i386
 Components: main
 Description: Repository for ralt.
-Update: - hipchat
+Update: - hipchat nodesource
 ```
 
 `conf/updates`:
@@ -24,4 +24,12 @@ VerifyRelease: blindtrust
 GetInRelease: no
 Components: main
 Suite: stable
+
+Name: nodesource
+Method: https://deb.nodesource.com/iojs_2.x
+Architectures: amd64
+VerifyRelease: blindtrust
+GetInRelease: no
+Components: main
+Suite: jessie
 ```
